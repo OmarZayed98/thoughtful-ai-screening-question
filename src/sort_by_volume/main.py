@@ -1,6 +1,4 @@
-
-
-
+# This module is responsible for sorting the packages based on their dimensions.
 
 MAX_VOLUME_CM3 = 1_000_000      # Volume threshold for bulky classification
 MAX_DIMENSION_CM = 150          # Dimension threshold for bulky classification
