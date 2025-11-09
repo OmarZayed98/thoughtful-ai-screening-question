@@ -1,0 +1,22 @@
+[project]
+name = "sort-by-volume"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Omar", email = "omarbzayed@gmail.com" }
+]
+requires-python = ">=3.11.9"
+dependencies = []
+
+[project.scripts]
+sort-by-volume = "sort_by_volume.main:main"
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]
