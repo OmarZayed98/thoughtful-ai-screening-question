@@ -1,7 +1,5 @@
 
 
-# Sorting thresholds (constants)
-from enum import Enum
 
 
 MAX_VOLUME_CM3 = 1_000_000      # Volume threshold for bulky classification
